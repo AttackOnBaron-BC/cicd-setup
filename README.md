@@ -70,12 +70,16 @@ The test workflow is configured to:
 - Run Cypress component tests
 - Provide test results and status checks
 
+
 ### Deployment Workflow (`develop` to `main`)
 
 The deployment workflow is configured to:
 - Trigger when code is merged from `develop` to `main`
 - Automatically deploy the application to Render
 - Use the Deploy Hook URL for triggering deployment
+
+  ![image](https://github.com/user-attachments/assets/92208ff8-67bc-499c-8ead-9d70b06f42a9)
+
 
 ## Workflow Files
 
